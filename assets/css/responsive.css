@@ -1,0 +1,37 @@
+/* ------------------------ Min Width 1280px ------------------------ */
+@media (min-width: 1280px) {
+.container {
+	max-width:1230px;
+}
+}
+/* ------------------------ Max Width 767px ------------------------ */
+@media (max-width: 767px) {
+body {
+	font-size:14px;
+}
+.heading1 {
+    font-size: 36px;
+}
+.heading2 {
+    font-size: 26px;
+}
+.heading_top p {
+    font-size: 16px;
+}
+.table_txt p {
+    font-size: 15px;
+}
+#cs_about .grid_right p {
+    font-size: 15px;
+}
+#cs_craftmanship p {
+    font-size: 16px;
+}
+#cs_teams .gridi .name_sec h4 {
+    font-size: 26px;
+}
+#cs_teams .gridi .name_sec p {
+    font-size: 15px;
+}
+
+}

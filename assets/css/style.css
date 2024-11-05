@@ -1,0 +1,155 @@
+/* --------------------------------------------------------------------------------
+			Banner
+-------------------------------------------------------------------------------- */
+#cs_banner {
+	background-size:cover;
+	background-position:center center;
+	/*background-attachment:fixed;*/
+	background-repeat: no-repeat;
+}
+/* --------------------------------------------------------------------------------
+			About Us
+-------------------------------------------------------------------------------- */
+#cs_about {
+	padding:80px 0px;
+}
+#cs_about .grid_right p {
+	font-size:18px;
+}
+/* --------------------------------------------------------------------------------
+			Craftmanship
+-------------------------------------------------------------------------------- */
+#cs_craftmanship {
+	background-size:cover;
+	background-position:center center;
+	padding:150px 0px;
+	text-align: center;
+}
+#cs_craftmanship .heading1 {
+	color:#fff;
+}
+#cs_craftmanship p {
+	margin-bottom:0px;
+	color:#fff;
+	font-size:20px;
+}
+/* --------------------------------------------------------------------------------
+			Service
+-------------------------------------------------------------------------------- */
+#cs_service {
+	padding:80px 0px;
+}
+#cs_service .row {
+	margin-bottom:50px;
+}
+#cs_service .row:last-child {
+	margin-bottom:0px;
+}
+/* --------------------------------------------------------------------------------
+            Collections
+-------------------------------------------------------------------------------- */
+#cs_collections {}
+#collection_slider .owl-nav {
+	margin: 0;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#collection_slider .owl-nav [class*=owl-] {
+	background-repeat: no-repeat;
+    background-size: 30px;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+#collection_slider .owl-nav .owl-prev {
+	background-image:url(../images/left-arrow.png);
+	left:-20px;
+}
+#collection_slider .owl-nav .owl-next {
+	background-image:url(../images/right-arrow.png);
+	right:-20px;
+}
+#collection_slider .owl-dots {
+	margin-top:40px;
+}
+#collection_slider .owl-dots .owl-dot span {
+	width: 8px;
+    height: 8px;
+    background-color:#fff;
+}
+#collection_slider .owl-dots .owl-dot.active span, 
+#collection_slider .owl-dots .owl-dot:hover span {
+	background-color:transparent;
+	border:1px solid #fff;
+}
+/* --------------------------------------------------------------------------------
+            Teams
+-------------------------------------------------------------------------------- */
+#cs_teams {
+	padding:80px 0px 40px 0px;
+}
+#cs_teams .gridi {
+	text-align: center;
+	margin-bottom:40px;
+}
+#cs_teams .gridi .img_sec {
+	display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#cs_teams .gridi .img_sec img {
+	
+}
+#cs_teams .gridi .name_sec {
+	margin-top:20px;
+}
+#cs_teams .gridi .name_sec h4 {
+	color: #886f4a;
+	font-size: 30px;
+    line-height: 1.4;
+}
+#cs_teams .gridi .name_sec p {
+	color: #fff;
+    font-size: 16px;
+}
+/* --------------------------------------------------------------------------------
+            Contact
+-------------------------------------------------------------------------------- */
+#cs_contact {
+	padding-bottom:80px;
+}
+#cs_contact .grid_right {
+	text-align: center;
+	color:#fff;
+	max-width:90%;
+	margin:auto;
+}
+#cs_contact .grid_right .form-group {
+	margin-bottom:10px;
+}
+#cs_contact .grid_right .form-control {
+	background-color:transparent;
+	border:1px solid #fff;
+	border-radius:4px;
+	font-size: 14px;
+    line-height: 1.4;
+}
+#cs_contact .grid_right .form-control::placeholder {
+	color:#fff;
+}
+#cs_contact .grid_right .btn_send {
+	background-color:#fff;
+	padding:6px 15px;
+	border:none;
+	border-radius:4px;
+	line-height:1.4;
+	cursor:pointer;
+}
+#cs_contact .grid_right .btn_send:focus {}
